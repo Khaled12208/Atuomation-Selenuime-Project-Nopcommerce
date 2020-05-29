@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="nopcommerce_packages.UserLoginTest">
+        <methods>
+          <include name="Browser_Terdown"/>
+          <include name="Successlgoin"/>
+          <include name="Browser_Init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- nopcommerce_packages.UserLoginTest -->
+      <class name="nopcommerce_packages.HomePageTest">
+        <methods>
+          <include name="cureency_validate"/>
+          <include name="link_test"/>
+          <include name="Browser_Terdown"/>
+          <include name="Browser_Init"/>
+          <include name="Actions_overMainMenue"/>
+          <include name="welcomeStatment"/>
+        </methods>
+      </class> <!-- nopcommerce_packages.HomePageTest -->
+      <class name="nopcommerce_packages.ContactUsTest">
+        <methods>
+          <include name="contact_us"/>
+          <include name="Browser_Terdown"/>
+          <include name="Browser_Init"/>
+        </methods>
+      </class> <!-- nopcommerce_packages.ContactUsTest -->
+      <class name="nopcommerce_packages.EmailFriendTest">
+        <methods>
+          <include name="Browser_Terdown"/>
+          <include name="Browser_Init"/>
+          <include name="logout"/>
+          <include name="Successlgoin"/>
+          <include name="SelectItem"/>
+          <include name="EmailaProduct"/>
+        </methods>
+      </class> <!-- nopcommerce_packages.EmailFriendTest -->
+      <class name="nopcommerce_packages.UserRegestrationTest">
+        <methods>
+          <include name="Browser_Terdown"/>
+          <include name="Browser_Init"/>
+          <include name="SuccessRegestration"/>
+        </methods>
+      </class> <!-- nopcommerce_packages.UserRegestrationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

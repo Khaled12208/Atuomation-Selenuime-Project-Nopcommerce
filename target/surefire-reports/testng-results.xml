@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37200" started-at="2020-05-29T15:19:06 EET" finished-at="2020-05-29T15:19:43 EET">
+    <groups>
+      <group name="Smook">
+        <method signature="HomePageTest.link_test()[pri:0, instance:nopcommerce_packages.HomePageTest@de3a06f]" name="link_test" class="nopcommerce_packages.HomePageTest"/>
+        <method signature="HomePageTest.welcomeStatment()[pri:0, instance:nopcommerce_packages.HomePageTest@de3a06f]" name="welcomeStatment" class="nopcommerce_packages.HomePageTest"/>
+        <method signature="HomePageTest.Actions_overMainMenue()[pri:0, instance:nopcommerce_packages.HomePageTest@de3a06f]" name="Actions_overMainMenue" class="nopcommerce_packages.HomePageTest"/>
+        <method signature="HomePageTest.cureency_validate(java.lang.String)[pri:0, instance:nopcommerce_packages.HomePageTest@de3a06f]" name="cureency_validate" class="nopcommerce_packages.HomePageTest"/>
+        <method signature="UserLoginTest.logout()[pri:0, instance:nopcommerce_packages.UserLoginTest@3bd94634]" name="logout" class="nopcommerce_packages.UserLoginTest"/>
+        <method signature="ContactUsTest.contact_us()[pri:0, instance:nopcommerce_packages.ContactUsTest@7181ae3f]" name="contact_us" class="nopcommerce_packages.ContactUsTest"/>
+      </group> <!-- Smook -->
+    </groups>
+    <test name="Test6" duration-ms="18307" started-at="2020-05-29T15:19:24 EET" finished-at="2020-05-29T15:19:42 EET">
+      <class name="nopcommerce_packages.UserRegestrationTest">
+        <test-method status="PASS" signature="Browser_Init()[pri:0, instance:nopcommerce_packages.UserRegestrationTest@1ee807c6]" name="Browser_Init" is-config="true" duration-ms="8850" started-at="2020-05-29T15:19:24 EET" finished-at="2020-05-29T15:19:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method status="PASS" signature="SuccessRegestration(nopcommerce_packages.User)[pri:0, instance:nopcommerce_packages.UserRegestrationTest@1ee807c6]" name="SuccessRegestration" duration-ms="8702" started-at="2020-05-29T15:19:33 EET" data-provider="Regestration" finished-at="2020-05-29T15:19:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nopcommerce_packages.User@7dac609]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessRegestration -->
+        <test-method status="PASS" signature="Browser_Terdown()[pri:0, instance:nopcommerce_packages.UserRegestrationTest@1ee807c6]" name="Browser_Terdown" is-config="true" duration-ms="742" started-at="2020-05-29T15:19:41 EET" finished-at="2020-05-29T15:19:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Terdown -->
+      </class> <!-- nopcommerce_packages.UserRegestrationTest -->
+    </test> <!-- Test6 -->
+    <test name="Test1" duration-ms="37200" started-at="2020-05-29T15:19:06 EET" finished-at="2020-05-29T15:19:43 EET">
+      <class name="nopcommerce_packages.EmailFriendTest">
+        <test-method status="PASS" signature="Browser_Init()[pri:0, instance:nopcommerce_packages.EmailFriendTest@768b970c]" name="Browser_Init" is-config="true" duration-ms="12250" started-at="2020-05-29T15:19:06 EET" finished-at="2020-05-29T15:19:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method status="PASS" signature="Successlgoin(nopcommerce_packages.UserLogin)[pri:0, instance:nopcommerce_packages.EmailFriendTest@768b970c]" name="Successlgoin" duration-ms="17101" started-at="2020-05-29T15:19:19 EET" data-provider="dataRegestration" finished-at="2020-05-29T15:19:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nopcommerce_packages.UserLogin@2cfd6a2c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Successlgoin -->
+        <test-method status="PASS" signature="SelectItem()[pri:0, instance:nopcommerce_packages.EmailFriendTest@768b970c]" name="SelectItem" duration-ms="2031" started-at="2020-05-29T15:19:36 EET" depends-on-methods="nopcommerce_packages.EmailFriendTest.Successlgoin" finished-at="2020-05-29T15:19:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method status="PASS" signature="EmailaProduct()[pri:0, instance:nopcommerce_packages.EmailFriendTest@768b970c]" name="EmailaProduct" duration-ms="3916" started-at="2020-05-29T15:19:38 EET" depends-on-methods="nopcommerce_packages.EmailFriendTest.SelectItem, nopcommerce_packages.EmailFriendTest.Successlgoin" finished-at="2020-05-29T15:19:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailaProduct -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:nopcommerce_packages.EmailFriendTest@768b970c]" name="logout" duration-ms="97" started-at="2020-05-29T15:19:42 EET" depends-on-methods="nopcommerce_packages.EmailFriendTest.SelectItem, nopcommerce_packages.EmailFriendTest.EmailaProduct, nopcommerce_packages.EmailFriendTest.Successlgoin" finished-at="2020-05-29T15:19:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Browser_Terdown()[pri:0, instance:nopcommerce_packages.EmailFriendTest@768b970c]" name="Browser_Terdown" is-config="true" duration-ms="800" started-at="2020-05-29T15:19:42 EET" finished-at="2020-05-29T15:19:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Terdown -->
+      </class> <!-- nopcommerce_packages.EmailFriendTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" verbose="10">
+<listeners>
+<listener class-name="nopcommerce_packages.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test1"  verbose="10">
+    <classes>
+      <class name="nopcommerce_packages.EmailFriendTest"/>
+    </classes>
+  </test> <!-- Test 1 -->
+    <test thread-count="5" name="Test2"  verbose="10">
+    <classes>
+      <class name="nopcommerce_packages.HomePageTest"/>
+    </classes>
+  </test> <!-- Test 2 -->
+    <test thread-count="5" name="Test3"  verbose="10">
+    <classes>
+      <class name="nopcommerce_packages.UserLoginTest"/>
+    </classes>
+  </test> <!-- Test 3 -->
+    <test thread-count="5" name="Test4"  verbose="10">
+    <classes>
+      <class name="nopcommerce_packages.SearchItemPage"/>
+    </classes>
+  </test> <!-- Test 4 -->
+    <test thread-count="5" name="Test5"  verbose="10">
+    <classes>
+      <class name="nopcommerce_packages.ContactUsTest"/>
+    </classes>
+  </test> <!-- Test 5 -->
+    <test thread-count="5" name="Test6"  verbose="10">
+    <classes>
+      <class name="nopcommerce_packages.UserRegestrationTest"/>
+    </classes>
+  </test> <!-- Test 6 -->
+</suite> <!-- Suite -->
