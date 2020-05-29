@@ -1,5 +1,5 @@
 # Nopcommerce Automation Frame Work Project
-This is a demo project for 
+This is a demo project for Testing Nopcommerce website using the test automation
   
 ## Frame works 
 1- Selenuime webdrivr 4.0
